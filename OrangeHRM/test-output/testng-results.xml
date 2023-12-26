@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-26T01:48:21 IST" name="Suite" finished-at="2023-12-26T01:48:54 IST" duration-ms="32920">
+    <groups>
+    </groups>
+    <test started-at="2023-12-26T01:48:21 IST" name="Test" finished-at="2023-12-26T01:48:54 IST" duration-ms="32920">
+      <class name="test.DashboardTest">
+        <test-method signature="verifyDashboardTitle()[pri:1, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:34 IST" name="verifyDashboardTitle" description="verify dashboard title" finished-at="2023-12-26T01:48:38 IST" duration-ms="4073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardTitle -->
+        <test-method signature="userDropDown()[pri:2, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:38 IST" name="userDropDown" description="verify user drop down" finished-at="2023-12-26T01:48:38 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDropDown -->
+        <test-method signature="userDropDownSupport()[pri:3, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:38 IST" name="userDropDownSupport" description="validate click on support on user drop down" finished-at="2023-12-26T01:48:39 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDropDownSupport -->
+        <test-method signature="VerifyMyActions1()[pri:4, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:39 IST" name="VerifyMyActions1" description="validate 1st my action component" finished-at="2023-12-26T01:48:43 IST" duration-ms="3694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMyActions1 -->
+        <test-method signature="VerifyMyActions2()[pri:5, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:43 IST" name="VerifyMyActions2" description="validate 2nd my action component" finished-at="2023-12-26T01:48:47 IST" duration-ms="3855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMyActions2 -->
+        <test-method signature="VerifyTimeAtWork()[pri:6, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:47 IST" name="VerifyTimeAtWork" description="validate time at work section" finished-at="2023-12-26T01:48:48 IST" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTimeAtWork -->
+        <test-method signature="VerifyAssignLeaveQL()[pri:7, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:48 IST" name="VerifyAssignLeaveQL" description="validate Quick Launch title and assign leave in quick launch section" finished-at="2023-12-26T01:48:50 IST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAssignLeaveQL -->
+        <test-method signature="VerifyLeaveList()[pri:8, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:50 IST" name="VerifyLeaveList" description="validate Leave List in quick launch section" finished-at="2023-12-26T01:48:51 IST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLeaveList -->
+        <test-method signature="VerifyApplyLeave()[pri:9, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:51 IST" name="VerifyApplyLeave" description="validate Apply Leave in quick launch section" finished-at="2023-12-26T01:48:52 IST" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplyLeave -->
+        <test-method signature="VerifyTimesheet()[pri:10, instance:test.DashboardTest@1e800aaa]" started-at="2023-12-26T01:48:52 IST" name="VerifyTimesheet" description="validate Timesheet in quick launch section" finished-at="2023-12-26T01:48:54 IST" duration-ms="1680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTimesheet -->
+      </class> <!-- test.DashboardTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:test.LoginTest@662ac478]" started-at="2023-12-26T01:48:21 IST" name="BeforeSuite" finished-at="2023-12-26T01:48:21 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:test.LoginTest@662ac478]" started-at="2023-12-26T01:48:21 IST" name="loadConfig" finished-at="2023-12-26T01:48:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LoginTest@662ac478]" started-at="2023-12-26T01:48:21 IST" name="setup" finished-at="2023-12-26T01:48:31 IST" depends-on-methods="base.BaseClass.loadConfig" duration-ms="9813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest7()[pri:7, instance:test.LoginTest@662ac478]" started-at="2023-12-26T01:48:31 IST" name="loginTest7" description="valid username and password" finished-at="2023-12-26T01:48:34 IST" duration-ms="2826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest7 -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.LoginTest@662ac478]" started-at="2023-12-26T01:48:54 IST" name="afterSuite" finished-at="2023-12-26T01:48:55 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
